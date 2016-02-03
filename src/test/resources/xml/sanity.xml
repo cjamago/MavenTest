@@ -28,7 +28,7 @@
         </groups>
 
         <packages>
-            <package name="com.wordpressTest.tests.sanityTests.*"/>
+            <package name="com.bility.test.sanityTests.*"/>
         </packages>
 
     </test>

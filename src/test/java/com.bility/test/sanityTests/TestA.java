@@ -25,14 +25,14 @@ public class TestA extends BaseTest {
     @Test(groups = TestGroups.SMOKE)
     public void firstTestCaseA() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in first test case from ClassOne Class");
+        System.out.println("I am in FirstTestCaseA case from TestA Class");
 
     }
 
     @Test(groups = TestGroups.SANITY)
     public void secondWebSiteA() throws Exception {
         Thread.sleep(1000);
-        System.out.println("im in second test case from ClassOne Class");
+        System.out.println("I am in SecondTestCaseA case from TestA Class");
 
         //Below statement will throw exception
 
@@ -48,7 +48,7 @@ public class TestA extends BaseTest {
     @Test(groups = TestGroups.SANITY)
     public void thirdTestCaseA() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in first test case from ClassOne Class");
+        System.out.println("I am in ThirdTestCaseA case from TestA Class");
     }
 
     @AfterClass(alwaysRun = true)

@@ -10,31 +10,35 @@ public class TestB {
     @Test(groups = TestGroups.SANITY)
     public void firstTestCaseB() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in first test case from ClassTwo Class");
+        System.out.println("I am in FirstTestCaseB case from TestB Class");
     }
 
     @Test(groups = TestGroups.SANITY)
-    public void secondTestCaseB() throws Exception  {
-        Thread.sleep(500);
-        System.out.println("im in second test case from ClassTwo Class");
+    public void secondTestCaseB() {
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("I am in SecondTestCaseB case from TestB Class");
         Assert.fail("Failing this Test");
     }
 
     @Test(groups = TestGroups.SANITY)
     public void thirdTestCaseB() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in third test case from ClassTwo Class");
+        System.out.println("I am in ThirdTestCaseB case from TestB Class");
     }
 
     @Test(groups = TestGroups.SANITY)
     public void fourthTestCaseB() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in fourth test case from ClassTwo Class");
+        System.out.println("I am in FourthTestCaseB case from TestB Class");
     }
 
     @Test(groups = TestGroups.SANITY)
     public void fifthTestCaseB() throws Exception {
         Thread.sleep(2000);
-        System.out.println("im in fifth test case from ClassTwo Class");
+        System.out.println("I am in FifthTestCaseB case from TestB Class");
     }
 }
