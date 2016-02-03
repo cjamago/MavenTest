@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.bility.test.sanityTests.TestB">
+        <methods>
+          <include name="secondTestCaseB"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestB -->
+      <class name="com.bility.test.sanityTests.TestC">
+        <methods>
+          <include name="secondTestCaseB"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestC -->
+      <class name="com.bility.test.regressionTests.YahooTest">
+        <methods>
+          <include name="yahooSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bility.test.regressionTests.YahooTest -->
+      <class name="com.bility.test.sanityTests.TestA">
+        <methods>
+          <include name="thirdTestCaseA"/>
+          <include name="tearDown"/>
+          <include name="secondWebSiteA"/>
+          <include name="testYahooSearch"/>
+          <include name="firstTestCaseA"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestA -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
