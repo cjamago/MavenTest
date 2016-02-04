@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="3" name="TestSuite" time="18.907" errors="0" skipped="6">
+<testsuite tests="14" failures="3" name="TestSuite" time="19.024" errors="0" skipped="6">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.bility.test.sanityTests.TestA" name="setUp" time="0.259">
+  <testcase classname="com.bility.test.sanityTests.TestA" name="setUp" time="0.381">
     <failure message="
 Parameter &apos;browserType&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined
 " type="org.testng.TestNGException">org.testng.TestNGException: 
@@ -103,7 +103,7 @@ Parameter &apos;browserType&apos; is required by @Configuration on method setUp 
     <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4141d797
 </system-out>
   </testcase>
-  <testcase classname="com.bility.test.sanityTests.TestA" name="firstTestCaseA" time="0.004">
+  <testcase classname="com.bility.test.sanityTests.TestA" name="firstTestCaseA" time="0.008">
     <skipped/>
   </testcase>
   <testcase classname="com.bility.test.sanityTests.TestA" name="secondWebSiteA" time="0">
@@ -112,13 +112,13 @@ Parameter &apos;browserType&apos; is required by @Configuration on method setUp 
   <testcase classname="com.bility.test.sanityTests.TestA" name="testYahooSearch" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.bility.test.sanityTests.TestA" name="thirdTestCaseA" time="0.001">
+  <testcase classname="com.bility.test.sanityTests.TestA" name="thirdTestCaseA" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.bility.test.sanityTests.TestB" name="fifthTestCaseB" time="2.004"/>
-  <testcase classname="com.bility.test.sanityTests.TestB" name="firstTestCaseB" time="2.006"/>
-  <testcase classname="com.bility.test.sanityTests.TestB" name="fourthTestCaseB" time="2.004"/>
-  <testcase classname="com.bility.test.sanityTests.TestB" name="secondTestCaseB" time="0.505">
+  <testcase classname="com.bility.test.sanityTests.TestB" name="fifthTestCaseB" time="2.005"/>
+  <testcase classname="com.bility.test.sanityTests.TestB" name="firstTestCaseB" time="2.004"/>
+  <testcase classname="com.bility.test.sanityTests.TestB" name="fourthTestCaseB" time="2.002"/>
+  <testcase classname="com.bility.test.sanityTests.TestB" name="secondTestCaseB" time="0.507">
     <failure message="Failing this Test" type="java.lang.AssertionError">java.lang.AssertionError: Failing this Test
 	at org.testng.Assert.fail(Assert.java:94)
 	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:24)
@@ -126,14 +126,14 @@ Parameter &apos;browserType&apos; is required by @Configuration on method setUp 
     <system-out>I am in SecondTestCaseB case from TestB Class
 </system-out>
   </testcase>
-  <testcase classname="com.bility.test.sanityTests.TestB" name="thirdTestCaseB" time="2.006"/>
-  <testcase classname="com.bility.test.sanityTests.TestC" name="firstTestCaseB" time="0.106"/>
+  <testcase classname="com.bility.test.sanityTests.TestB" name="thirdTestCaseB" time="2.003"/>
+  <testcase classname="com.bility.test.sanityTests.TestC" name="firstTestCaseB" time="0.103"/>
   <testcase classname="com.bility.test.sanityTests.TestC" name="secondTestCaseB" time="5.005">
     <skipped/>
     <system-out>I am in SecondTestCaseC case from TestC Class
 </system-out>
   </testcase>
-  <testcase classname="com.bility.test.regressionTests.YahooTest" name="setUp" time="5.007">
+  <testcase classname="com.bility.test.regressionTests.YahooTest" name="setUp" time="5.006">
     <failure message="
 Parameter &apos;browserType&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined
 " type="org.testng.TestNGException">org.testng.TestNGException: 
