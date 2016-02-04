@@ -56,8 +56,7 @@ public class BrowseDriver {
     }
 
     private WebDriver initHtmlUnitDriver() {
-        capabilities = DesiredCapabilities.htmlUnit();
-        driver = new HtmlUnitDriver(capabilities);
+        driver = new HtmlUnitDriver();
         return driver;
     }
 

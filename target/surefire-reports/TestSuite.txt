@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 14.104 sec <<< FAILURE!
-setUp(com.bility.test.sanityTests.TestA)  Time elapsed: 0.282 sec  <<< FAILURE!
+Tests run: 14, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 14.085 sec <<< FAILURE!
+setUp(com.bility.test.sanityTests.TestA)  Time elapsed: 0.259 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'browserType' is required by @Configuration on method setUp but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
@@ -37,12 +37,12 @@ Parameter 'browserType' is required by @Configuration on method setUp but has no
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-secondTestCaseB(com.bility.test.sanityTests.TestB)  Time elapsed: 0.508 sec  <<< FAILURE!
+secondTestCaseB(com.bility.test.sanityTests.TestB)  Time elapsed: 0.505 sec  <<< FAILURE!
 java.lang.AssertionError: Failing this Test
 	at org.testng.Assert.fail(Assert.java:94)
-	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:20)
+	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:24)
 
-setUp(com.bility.test.regressionTests.YahooTest)  Time elapsed: 5.005 sec  <<< FAILURE!
+setUp(com.bility.test.regressionTests.YahooTest)  Time elapsed: 5.007 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'browserType' is required by @Configuration on method setUp but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParameters(Parameters.java:154)

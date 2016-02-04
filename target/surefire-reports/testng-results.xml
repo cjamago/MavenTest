@@ -2,7 +2,7 @@
 <testng-results skipped="6" failed="1" total="12" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="13666" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:59Z">
+  <suite name="Command line suite" duration-ms="13671" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:57:08Z">
     <groups>
       <group name="smoke">
         <method signature="TestA.firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="firstTestCaseA" class="com.bility.test.sanityTests.TestA"/>
@@ -21,9 +21,9 @@
         <method signature="TestC.secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@6cc4c815]" name="secondTestCaseB" class="com.bility.test.sanityTests.TestC"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Command line test" duration-ms="13666" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:59Z">
+    <test name="Command line test" duration-ms="13671" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:57:08Z">
       <class name="com.bility.test.regressionTests.YahooTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="setUp" is-config="true" duration-ms="0" started-at="2016-02-03T13:57:59Z" finished-at="2016-02-03T13:57:59Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="setUp" is-config="true" duration-ms="0" started-at="2016-02-03T15:57:08Z" finished-at="2016-02-03T15:57:08Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -71,17 +71,17 @@ Parameter 'browserType' is required by @Configuration on method setUp but has no
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="yahooSearch" duration-ms="1" started-at="2016-02-03T13:57:59Z" finished-at="2016-02-03T13:57:59Z">
+        <test-method status="SKIP" signature="yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="yahooSearch" duration-ms="0" started-at="2016-02-03T15:57:08Z" finished-at="2016-02-03T15:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yahooSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-02-03T13:57:59Z" finished-at="2016-02-03T13:57:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.regressionTests.YahooTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-02-03T15:57:08Z" finished-at="2016-02-03T15:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bility.test.regressionTests.YahooTest -->
       <class name="com.bility.test.sanityTests.TestA">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="setUp" is-config="true" duration-ms="0" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="setUp" is-config="true" duration-ms="0" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -129,41 +129,41 @@ Parameter 'browserType' is required by @Configuration on method setUp but has no
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="firstTestCaseA" duration-ms="5" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
+        <test-method status="SKIP" signature="firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="firstTestCaseA" duration-ms="4" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseA -->
-        <test-method status="SKIP" signature="secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="secondWebSiteA" duration-ms="1" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
+        <test-method status="SKIP" signature="secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="secondWebSiteA" duration-ms="0" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondWebSiteA -->
-        <test-method status="SKIP" signature="testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="testYahooSearch" duration-ms="0" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testYahooSearch -->
-        <test-method status="SKIP" signature="thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="thirdTestCaseA" duration-ms="0" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
+        <test-method status="SKIP" signature="thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="thirdTestCaseA" duration-ms="0" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestCaseA -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:46Z">
+        <test-method status="SKIP" signature="testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="testYahooSearch" duration-ms="0" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahooSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.sanityTests.TestA@5d5eef3d]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bility.test.sanityTests.TestA -->
       <class name="com.bility.test.sanityTests.TestB">
-        <test-method status="PASS" signature="fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="fifthTestCaseB" duration-ms="2001" started-at="2016-02-03T13:57:46Z" finished-at="2016-02-03T13:57:48Z">
+        <test-method status="PASS" signature="fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="fifthTestCaseB" duration-ms="2006" started-at="2016-02-03T15:56:54Z" finished-at="2016-02-03T15:56:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fifthTestCaseB -->
-        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="firstTestCaseB" duration-ms="2004" started-at="2016-02-03T13:57:48Z" finished-at="2016-02-03T13:57:50Z">
+        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="firstTestCaseB" duration-ms="2005" started-at="2016-02-03T15:56:56Z" finished-at="2016-02-03T15:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseB -->
-        <test-method status="PASS" signature="fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="fourthTestCaseB" duration-ms="2001" started-at="2016-02-03T13:57:50Z" finished-at="2016-02-03T13:57:52Z">
+        <test-method status="PASS" signature="fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="fourthTestCaseB" duration-ms="2003" started-at="2016-02-03T15:56:58Z" finished-at="2016-02-03T15:57:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestCaseB -->
-        <test-method status="FAIL" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="secondTestCaseB" duration-ms="507" started-at="2016-02-03T13:57:52Z" finished-at="2016-02-03T13:57:52Z">
+        <test-method status="FAIL" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="secondTestCaseB" duration-ms="504" started-at="2016-02-03T15:57:00Z" finished-at="2016-02-03T15:57:01Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing this Test]]>
@@ -171,7 +171,7 @@ Parameter 'browserType' is required by @Configuration on method setUp but has no
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Failing this Test
 	at org.testng.Assert.fail(Assert.java:94)
-	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:20)
+	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -212,17 +212,17 @@ Parameter 'browserType' is required by @Configuration on method setUp but has no
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestCaseB -->
-        <test-method status="PASS" signature="thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="thirdTestCaseB" duration-ms="2006" started-at="2016-02-03T13:57:52Z" finished-at="2016-02-03T13:57:54Z">
+        <test-method status="PASS" signature="thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@56f4468b]" name="thirdTestCaseB" duration-ms="2005" started-at="2016-02-03T15:57:01Z" finished-at="2016-02-03T15:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestCaseB -->
       </class> <!-- com.bility.test.sanityTests.TestB -->
       <class name="com.bility.test.sanityTests.TestC">
-        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@6cc4c815]" name="firstTestCaseB" duration-ms="104" started-at="2016-02-03T13:57:54Z" finished-at="2016-02-03T13:57:54Z">
+        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@6cc4c815]" name="firstTestCaseB" duration-ms="106" started-at="2016-02-03T15:57:03Z" finished-at="2016-02-03T15:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseB -->
-        <test-method status="SKIP" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@6cc4c815]" name="secondTestCaseB" duration-ms="5004" started-at="2016-02-03T13:57:54Z" finished-at="2016-02-03T13:57:59Z">
+        <test-method status="SKIP" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@6cc4c815]" name="secondTestCaseB" duration-ms="5006" started-at="2016-02-03T15:57:03Z" finished-at="2016-02-03T15:57:08Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test with exception]]>

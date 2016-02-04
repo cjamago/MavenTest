@@ -3,7 +3,7 @@
 <suite name="Main Test Suite" verbose="5" parallel="classes">
 
     <!--<parameter name="appURL" value="https://uk.yahoo.com/"/>-->
-    <parameter name="browserType" value="phantomjs"/>
+    <parameter name="browserType" value="htmlunit"/>
 
     <listeners>
         <listener class-name="com.bility.framework.TestNGCustomReportListener"/>
